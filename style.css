@@ -121,8 +121,8 @@ main
     background-image: url('./assets/img/bitcoin.svg');
     margin: 0 auto;
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-position: center;/*posicionar el centro de la imagen*/
+    background-repeat: no-repeat;/*no repetir la imagen */
     
 }
 .container-one-text
@@ -140,7 +140,7 @@ main
     font-weight: bold;
     line-height: 2.6rem;/*separado de renglones*/
 }
-.main-container-one p
+.main-container-one p.info
 {
     width: 90%;
     margin: 20px auto;
@@ -153,16 +153,110 @@ main
 {
     margin-top: 20px;
     width: 150px;
-    font-weight: bold;
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: 1.8rem;
     color: var(--bitcoin-orange);
     align-self: center;
 }
 .main-container-one img
 {
     position: absolute;
-    top: 950px;
+    top: 1385px;
     right: calc(50% - 21px);
 }
+.table-container-one
+{
+    width: 80%;
+    height: 90px;
+    margin: 0 auto;
+}
+table
+{
+    width: 100%;
+}
+.coin-name
+{
+    padding: 10px 12px ;
+    width: 100px;
+    color: #b5b0ac;
+    font-size: 1.6rem;
+    text-align: left;
+    font-weight: 500;
+    background-color: #ffffff;
+}
+.coin-value
+{
+    padding: 10px 12px ;
+    width: 100px;
+    color: #757575;
+    font-weight: 400;
+    font-size: 1.4rem;
+    text-align: left;
+    background-color: #ffffff;
+}
+.update-container
+{
+    width: 100%;
+    margin-top: 130px;
+    display: flex;
+}
+.treding
+{
+    margin-left: 40px;
+}
+
+.update-container p
+{
+    width: auto;
+    margin: 0 auto;
+    background-color: var(--soft-orange);
+    border-radius: 5px;
+    padding: 8px;
+    color: var(--warm-black);
+}
+.update-container b
+{
+ font-weight: 900;
+}
+
+.left-top
+{
+    border-radius: 10px 0 0 0 ;
+}
+.rigth-top
+{
+    border-radius: 0 10px 0 0;
+}
+.left-bottom
+{
+    border-radius: 0 0 0 10px;
+}
+
+.rigth-bottom
+{
+    border-radius: 0 0 10px 0;
+}
+.table-container-two
+{
+    width: 80%;
+    height: 90px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.comision-tittle
+{
+    color:var(--second-blue);
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 100px;    
+}
+
+
+
+
 /*secction 2_________________________*/
 .main-container-two
 {
