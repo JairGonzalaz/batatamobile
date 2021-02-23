@@ -306,7 +306,7 @@ table
     font-size: 1.4rem;
     padding-bottom: 10px;
 }
-.main-container-two .container-section-info img
+.main-container-two .container-section-info svg
 {
     margin: 15px 0px 5px 15px;
 }
@@ -315,7 +315,7 @@ table
 {
     width: 100%;
     height: 387px;
-    background-image: url(/assets/img/bitcoinbaby1.png);
+    background-image: url('https://i.ibb.co/SmMsR97/bitcoinbaby1.png');
 }
 .main-container-three div
 {
