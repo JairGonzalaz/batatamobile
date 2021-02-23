@@ -330,3 +330,188 @@ table
     font-size: 2.4rem;
     text-align: center;
 }
+/*secsion 4 _____________________________________________*/
+.main-container-four
+{
+    width: 100%;
+    height: 450px;
+    background-color: var(--off-white);
+}
+.title-section-container
+{
+    width: 90%;
+    height: 100px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.main-container-four .title-section-container .tittle-section-four
+{
+    text-align: center;
+    font-size: 2.4rem;
+    color: var(--warm-black);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bolder;
+    line-height: 26px;
+}
+.main-container-four .title-section-container .text-section-four
+{
+    color: #757575;
+    font-size: 1.4rem;
+    font-weight: 500;
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    margin-top: 15px;
+}
+.card-container-year
+{
+    width: 190px;
+    height: 250px;
+    margin: 0 auto;
+    background-color: var(--just-white);
+    margin-top: 60px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+}
+.card-container-year .title-container
+{
+    background-color: var(--bitcoin-orange);
+    border-radius: 10px;
+    width: 100px;
+    padding: 10px;
+    position: absolute;
+    top: -20px;
+    left: calc(50% - 50px);
+
+    
+}
+.card-container-year .title-container p
+{
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    color: var(--just-white);
+    font-family: 'inter';
+}
+.main-container-four .card-container-year .info-card-container
+{
+    width: 80%;
+    height: 180px;
+    margin: 0 auto;
+    padding-top: 30px;
+    text-align: center;
+    position: relative;
+}
+.main-container-four .card-container-year .info-card-container h3
+{
+    color: #000000;
+    font-size: 1.4rem;
+    font-weight: 500;
+    font-family: 'dm sans';
+}
+.main-container-four .card-container-year .info-card-container .coin-simbol-card
+{
+    position: absolute;
+    left: calc(50% - 40px);
+    bottom: 110px;
+    font-family: 'inter';
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #363636;
+}
+.main-container-four .card-container-year .info-card-container .price-card-container
+{
+    color: #000000;
+    font-size: 5.2rem;
+    font-weight: bold;
+    letter-spacing: -0.08em;
+    font-family: 'inter';
+}
+
+.main-container-four .card-container-year .info-card-container .text-card-container
+{
+    font-size: 1.2rem;
+    color: #757575;
+    text-align: center;
+    font-weight: 500;
+    font-family: 'inter';
+    margin-top: 10px;
+}
+.button-container
+{
+    width: 80%;
+    margin: 0 auto;
+}
+.button-container button
+{
+    width: 151px;
+    height: 48px;
+    margin: 0 auto;
+    background-color: var(--off-white);
+    border-radius: 4px;
+    border: 2px solid var(--bitcoin-orange);
+}
+.div-container--button-text
+{
+    
+    height: auto;
+    margin: 0 auto;
+}
+.div-container--button-text p
+{
+   width: 80%;
+   height: auto;
+   position: relative;
+   font-family: 'DM Sans';
+   font-size: 1.4rem;
+   font-weight: bold;
+
+}
+.div-container--button-text p svg
+{
+    position: absolute;
+    top: calc(50% - 12px);
+    right: -15px;
+}
+
+/*footer______________________________________________*/
+
+footer
+{
+    width: 100%;
+    height: 150px;
+    background-color: var(--bitcoin-orange);
+    padding: 40px;
+    position: relative;
+}
+footer section
+{
+    height: 100%;
+}
+footer section div
+{
+    height: 100%;
+    margin-left: 20px;
+}
+footer section div ul
+{
+    list-style: none;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+footer section div ul li a
+{
+    color: var(--just-white);
+    font-family: 'SM Sans';
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+footer .footer-logo-container
+{
+    position: absolute;
+    top: calc(50% - 20px);
+    right: 50px;
+}
