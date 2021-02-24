@@ -337,7 +337,7 @@ table
 .main-container-four
 {
     width: 100%;
-    height: 450px;
+    height: 500px;
     background-color: var(--off-white);
 }
 .title-section-container
@@ -368,14 +368,17 @@ table
 }
 .card-container-year
 {
-    width: 190px;
+    min-width: 190px;
     height: 250px;
     margin: 0 auto;
     background-color: var(--just-white);
     margin-top: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
     position: relative;
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    scroll-snap-align: center;
 }
 .card-container-year .title-container
 {
@@ -477,6 +480,40 @@ table
     top: calc(50% - 12px);
     right: -15px;
 }
+
+
+/*slide________________________________________*/
+.slide-container
+{
+   display: flex;
+   height: 316px;
+   overflow-x: scroll;
+   overscroll-behavior-x: contain;
+   scroll-snap-type: x proximity;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*footer______________________________________________*/
 
